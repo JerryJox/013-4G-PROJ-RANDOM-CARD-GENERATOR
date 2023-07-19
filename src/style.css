@@ -1,1 +1,36 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+#cardWidth {
+  width: 500px;
+}
+
+#figuraSup {
+  padding: 5px;
+  height: 70px;
+  font-size: 70px;
+}
+
+#figuraUpDown {
+  padding: 5px;
+  height: 70px;
+  font-size: 70px;
+  transform: rotate(180deg);
+}
+
+#unidades {
+  height: 240px;
+  font-size: 120px;
+}
+
+.figura {
+  color: black;
+}
+
+.figura.rojo {
+  color: red;
+}
+
+button {
+  text-decoration-thickness: 25px;
+  padding: 20px;
+}
